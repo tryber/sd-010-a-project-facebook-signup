@@ -4,13 +4,33 @@
 }
 
 .top-bar {
+  width: 100%;
   display: flex;
   background-color: rgb(66, 103, 178);
-  width: 100%;
   flex-direction: row;
+  justify-content: space-between;
 }
 
-#facebookLogo {
-    display: flex;
-    justify-self: center;
+.top-bar img {
+  flex-basis: 15%;
+  flex-shrink: 0;
+}
+
+.facebook-login {
+  display: flex;
+  color: white;
+  flex-shrink: 1;
+}
+
+.facebook-login div {
+  margin-right: 20px;
+}
+
+.facebook-login .label {
+  color: white;
+}
+
+.field p {
+  font-size: 12px;
+  opacity: 60%;
 }

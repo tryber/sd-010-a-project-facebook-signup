@@ -13,6 +13,7 @@
     "lint:styles": "stylelint **/*.css --config .stylelintrc.json --ignore-disables --allow-empty-input"
   },
   "dependencies": {
+    "bulma": "^0.9.2",
     "lint": "^0.7.0"
   }
 }

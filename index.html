@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook – entre ou cadastre-se</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="icon"
+    href="https://web.archive.org/web/20200101163229im_/https://www.facebook.com/images/fb_icon_325x325.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content top-bar center-block">
+      <img src="imgs/facebook-logo.png" alt="facebook" class="facebook-logo">
+
+      <form action="" class="header__form facebook-login">
+
+        <div class="header__form__item form-group">
+          <label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
+          <input type="text" id="user-email-phone">
+        </div>
+
+        <div class="header__form__item form-group">
+          <label for="user-password" id="user-password-label">Senha</label>
+          <input type="password" id="user-password">
+        </div>
+        <div class="form-control">
+          <button id="button-login">Entrar</button>
+        </div>
+      </form>
+    </div>
+  </header>
+
+  <div class="main">
+    <main class="main__content main-content center-block">
+
+      <div class="left-content">
+        <div>
+          <p id="facebook-slogan">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da
+            sua
+            vida.</p>
+        </div>
+        <div>
+          <img src="imgs/networking.png" alt="" id="facebook-networking">
+        </div>
+        <div>
+          <a href="#histoy_facebook">Conheça mais sobre a historia do facebook</a>
+        </div>
+      </div>
+
+      <div class="right-content">
+        <h1>Abra uma conta</h1>
+        <p class="quick-easy">É rápido e fácil.</p>
+        <form action="">
+          <div class="user-name-inputs">
+            <input type="text" name="firstname" placeholder="Nome">
+            <input type="text" name="lastname" placeholder="Sobrenome">
+          </div>
+
+          <input class="width_input" type="text" name="phone_email" placeholder="Celular ou email">
+
+          <input class="width_input" type="password" name="password" placeholder="Nova senha">
+
+          <div class="birth-sign">
+            <label for="birthdate" id="label-birthdate">Data de nascimento</label>
+            <input type="text" name="birthdate" placeholder="dd/mm/aaaa" id="birthdate">
+          </div>
+
+          <div class="gender">
+            <div class="gender__label"><label id='label-gender'>Gênero</label></div>
+            <div class="gender__radios">
+              <div class="gender__radio">
+                <input type="radio" name="gender" id="Feminino" value="Feminino">
+                <label for='Feminino'>Feminino</label>
+              </div>
+              <div class="gender__radio">
+                <input type="radio" name="gender" id="Masculino" value="Masculino">
+                <label for='Masculino'>Masculino</label>
+              </div>
+              <div class="gender__radio">
+                <input type="radio" name="gender" id="Personalizado" value="Personalizado">
+                <label for='Personalizado'>Personalizado</label>
+              </div>
+            </div>
+          </div>
+          <button type="submit" id="facebook-register">Cadastre-se</button>
+          <div class="error">
+            <p>Campos inválidos</p>
+          </div>
+        </form>
+
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

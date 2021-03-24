@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook Project</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="https://static.xx.fbcdn.net/rsrc.php/yo/r/iRmz9lCMBD2.ico">
+</head>
+<body>
+  
+  <header class="top-bar">
+    <img src="imgs/facebook-logo.png" alt="logotipo facebook" class="facebook-logo">
+    <form action="" class="facebook-login">
+      <div class="form-group">
+        <label for="user-email-phone" name="" id="user-email-phone-label">Email ou telefone</label>
+        <input type="text" id="user-email-phone">
+      </div>
+      <div class="form-group">
+        <label for="user-password" id="user-password-label">Senha</label>
+        <input type="text" id="user-password">
+      </div>
+      <div class="form-control">
+        <button id="button-login" type="button" class="btn-entrar btn">Entrar</button>
+      </div>
+    </form>
+  </header>
+
+  <main class="main-content">
+    <div class="left-content">
+      <p id="facebook-slogan">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+      <img src="imgs/networking.png" alt="mapa do mundo" id="facebook-networking">
+    </div>
+    <div class="right-content">
+      <h1>Abra uma conta</h1>
+      <h3 class="quick-easy">É rápido e fácil.</h3>
+      <form action="" method="get">
+        <div class="email">
+          <div class="nome">
+            <input type="text" placeholder="Nome" name="firstname">
+            <input type="text" placeholder="Sobrenome" name="lastname">
+          </div>
+          <div>
+            <input type="text" placeholder="Celular ou email" name="phone_email">
+            <input type="password" placeholder="Nova senha" name="password">
+          </div>
+        </div>
+
+        <div>
+          <label for="data" id="label-birthdate">Data de nascimento</label>
+          <input type="text" id="data" placeholder="dd/mm/aaaa" name="birthdate">
+        </div>
+        <br>  
+
+        <label for="" id="label-gender">Gênero</label>
+        <div class="genero">
+          <div>
+            <input type="radio" id="gender1" name="gender" value="Feminino">
+            <label for="gender1">Feminino</label>
+          </div>
+          <div>
+            <input type="radio" id="gender2" name="gender" value="Masculino">
+            <label for="gender2">Masculino</label>
+          </div>
+          <div>
+            <input type="radio" id="gender3" name="gender" value="Personalizado">
+            <label for="gender3">Personalizado</label>
+          </div>
+        </div>
+        <div class="custom">
+          <select name="" id="" class="custom-pronoun">
+            <option disabled>Selecione seu pronome</option>
+            <option value="Feminino">Feminino: "Deseje a ela um feliz aniversário!"</option>
+            <option value="Masculino">Masculino: "Deseje a ele um feliz aniversário!"</option>
+            <option value="Neutro">Neutro: "Deseje a ele(a) um feliz aniversário!"</option>
+          </select>
+          <span class="gender-custom-description">O seu pronome fica visível para todos.</span>
+          <input type="text" name="gender-custom" id="gender-custom" placeholder="Gênero (opcional)">
+        </div>
+        <br>
+        <button id="facebook-register" type="submit" class="btn-cadastrar btn">Cadastre-se</button>
+      </form>
+    </div> 
+  </main>
+  <footer>
+    <span>Facebook © 2021</span>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>

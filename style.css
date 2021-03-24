@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-bar {
+  background-color: rgb(66, 103, 178);
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+}
+
+.main-content {
+  display: flex;
+}
+
+.left-content {
+  width: 800px;
+}
+
+.facebook-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-control {
+  align-self: flex-end;
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.radio-btns {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#label-gender {
+  text-align: center;
+}
+
+.form-place {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#phone_email {
+  width: 80%;
+}
+
+#password {
+  width: 80%;
+}
+
+#birth-id {
+  display: flex;
+  flex-direction: column;
+}
+
+#firstname {
+  width: 50%;
+}
+
+#lastname {
+  width: 50%;
+}
+
+.genderSelection {
+  display: flex;
+  flex-direction: column;
+}
+
+.genderBtns {
+  display: flex;
+}
+
+.personalizadoBox {
+  display: none;
+}

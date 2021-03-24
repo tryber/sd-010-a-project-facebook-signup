@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang='pt'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <title>Facebook Signup</title>
+</head>
+
+<body>
+    <header class='top-bar'> <!-- Requisito 1 -->
+        <img src='imgs/facebook-logo.png' class='facebook-logo'> <!-- Requisito 2 -->
+
+        <form class='facebook-login' action=''> <!-- Requisito 3 -->
+            <div class='form-group'> <!-- Requisito 5 -->
+                <label id='user-email-phone-label' for='user-email-phone'>Email ou telefone</label>
+                <input id='user-email-phone' type='text'>
+            </div>
+
+            <div class='form-group'> <!-- Requisito 6 -->
+                <label id='user-password-label' for='user-password'>Senha</label>
+                <input id='user-password' type='password'>
+            </div>
+
+            <div class='form-control'> <!-- Requisito 7 -->
+                <button id='button-login'>Entrar</button>
+            </div>
+        </form>
+    </header>
+
+    <section class='main-content'> <!-- Requisito 8 -->
+        <div class='left-content'> <!-- Requisito 9 -->
+            <p id='facebook-slogan'>
+                O Facebook ajuda você a se conectar e <br>
+                compartilhar com as pessoas que fazem parte <br>
+                da sua vida.
+            </p>
+            
+            <img src='imgs/networking.png' id='facebook-networking'>
+        </div>
+
+        <div class='right-content'> <!-- Requisito 10 -->
+            <h1>Abra uma conta</h1>
+
+            <h3 class='quick-easy'>É rápido e fácil.</h3>
+
+            <form class='register' action=''>
+                <div class='fullName'>
+                    <input type='text' name='firstname' placeholder='Nome' class='input-text'> <!-- Requisito 11-->
+
+                    <input type='text' name='lastname' placeholder='Sobrenome' class='input-text'> <!-- Requisito 12 -->
+                </div>
+
+                <input type='text' name='phone_email' placeholder='Celular ou email' class='input-text'> <!-- Requisito 13 -->
+                
+                <input type='password' name='password' placeholder='Nova senha' class='input-text'> <!-- Requisito 14 -->
+                
+                <label id='label-birthdate' for='birthdate'>Data de nascimento</label>
+                <input type='text' name='birthdate' placeholder='dd/mm/aaaa' class='input-text'> <!-- Requisito 15 -->
+
+                <label id='label-gender' for=''>Gênero</label>
+                <div id='container'> <!-- Requisito 16 -->
+                    
+                    <input id='female' type='radio' name='gender' value='Feminino' checked>
+                    <label for='female' class='female'>Feminino</label>
+
+                    <input id='male' type='radio' name='gender' value='Masculino'>
+                    <label for='male' class='male'>Masculino</label>
+                    
+                    
+                    <input id='custom' type='radio' name='gender' value='Personalizado'>
+                    <label for='custom' class='custom'>Personalizado</label>
+                    
+                </div>
+
+                <button id='facebook-register' type='submit'>Cadastre-se</button> <!-- Requisito 17 -->
+                <div id='erro'></div>
+
+            </form>
+
+        </div>
+    </section>
+
+    <script src='script.js'></script>
+</body>
+</html>

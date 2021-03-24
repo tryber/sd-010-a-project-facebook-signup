@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="top-bar">
+          <img src="imgs/facebook-logo.png" alt="Logo do Facebook" class="facebook-logo">
+          <form action="" method="GET" class="facebook-login">
+              <div class="form-group">
+                  <label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
+                  <input type="text" id="user-email-phone">
+              </div>
+              <div class="form-group">
+                  <label for="user-password" id="user-password-label">Senha</label>
+                  <input type="text" id="user-password">
+                  <p>Esqueceu a conta?</p>
+              </div>
+              <div class="form-control">
+                  <button id="button-login">Entrar</button>
+              </div>
+          </form>
+      </div>
+    </header>
+    <main class="main-content">
+        <div class="left-content">
+          <div class="left-items">
+            <p id='facebook-slogan'>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+            <img id='facebook-networking' src="imgs/networking.png" alt="">
+          </div>
+        </div>
+        <div class="right-content">
+          <h1 class='delete'>Abra uma conta</h1><br>
+          <p class="quick-easy delete">É rápido e fácil.</p><br>
+          <form action="" method="GET" class="main-form delete">
+            <div class='data-content'>
+              <input type="text" class='input-text delete' name="firstname" id="first-name" placeholder="Nome" required>
+              <input type="text" class='input-text delete' name="lastname" id="last-name" placeholder="Sobrenome" required>
+              <input type="text" class='input-text delete' name="phone_email" id="phone-email" placeholder="Celular ou email" required>
+              <input type="password" class='input-text delete' name="password" id="password" placeholder="Nova senha" required>
+              <label id='label-birthdate' class='delete' for="date">Data de nascimento</label>
+              <input type="text" class='input-text delete' name="birthdate" id="date" placeholder="dd/mm/aaaa" required>
+              <label id='label-gender' class='delete'>Gênero</label>
+                <div class='radio-container'>
+                  <div class='radio'>
+                    <input type="radio" name='gender' id='gender-women' class='delete' value="Feminino" required>
+                    <label for="gender-women" class='delete'>Feminino</label>
+                  </div>
+                  <div class='radio'>
+                    <input type="radio" name='gender' id='gender-men' class='delete' value="Masculino">
+                    <label for="gender-men" class='delete'>Masculino</label>
+                  </div>
+                  <div class='radio'>
+                    <input type="radio" name='gender' id='gender-custom' class='delete' value="Personalizado">
+                    <label for="gender-custom" class='delete'>Personalizado</label>
+                  </div>
+                </div>
+                <p>Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Dados e Política de Cookies. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
+                <input type="text" id="gender-custom-content" class='delete' name="gender-custom" value="" placeholder="Gênero (opcional)">
+            </div><br>
+            <button type="submit" id="facebook-register" class='delete'>Cadastre-se</button>
+          </form>
+        </div>
+      </main>
+  <script src="script.js"></script>
+</body>
+</html>

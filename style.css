@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  display: flex;
+  background-color: rgb(66, 103, 178);
+  width: 100%;
+  justify-content: space-between;
+}
+
+.facebook-logo {
+  width: 18%;
+}
+
+.facebook-login {
+  display: flex;
+  padding-bottom: 2%;
+  width: 35%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  padding-left: 2%;
+  color: white;
+}
+
+.form-control {
+  margin-left: 2%;
+  align-self: flex-end;
+}
+
+.main-content {
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: space-around;
+}
+
+.left-content {
+  display: flex;
+  width: 800px;
+  flex-direction: column;
+}
+
+.right-content {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+}
+
+.names {
+  display: flex;
+}
+
+#formMain {
+  display: flex;
+  flex-direction: column;
+}
+
+#label-gender {
+  display: flex;
+}
+
+.genders label {
+  padding: 0 4px;
+}
+
+.genders {
+  display: flex;
+  flex-direction: column;
+}
+
+.gender-container {
+  display: flex;
+}

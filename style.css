@@ -1,0 +1,181 @@
+:root {
+
+  --color-blue: rgb(66, 103, 178);
+
+  --color-blue-dark: rgb(17, 59, 98);
+
+  --color-blue-light: rgb(140, 166, 206);
+
+  --color-green: rgb(87, 137, 67);
+
+}
+
+@font-face {
+  font-family: Segoe;
+  src: url('fonts/segoe-ui-4/Segoe UI.ttf');
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: Segoe, sans-serif;
+  background: linear-gradient(180deg, rgb(250, 250, 250) 0%, rgb(211, 216, 232) 100%);
+}
+
+label {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 70%;
+}
+
+.input {
+  padding: 6px 8px;
+  border: 1px solid black;
+}
+
+.input-main {
+  font-size: 16px;
+  width: 100%;
+  padding: 10px 8px;
+  border: 1px solid rgba(66, 103, 178, 0.2);
+  border-radius: 6px;
+  margin: 4px 0;
+  box-sizing: border-box;
+}
+
+.input-main:nth-child( 1 ) {
+  margin-right: 8px;
+}
+
+.input-main:focus {
+  outline: none;
+  border: 1px solid var(--color-blue);
+}
+
+.input-description {
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--color-blue-light);
+}
+
+.btn {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 8px;
+  margin-bottom: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary {
+  background-color: var(--color-blue);
+  color: white;
+}
+
+.btn-secondary {
+  background-color: var(--color-green);
+  color: white;
+  font-size: 16px;
+  padding: 8px 64px;
+  border: 1px groove rgb(73, 121, 54);
+  border-radius: 6px;
+  margin-bottom: 0;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 800;
+  color: rgb(125, 125, 125);
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.top-bar {
+  width: 100%;
+  margin: 0 auto;
+  padding: 8px 64px;
+  box-sizing: border-box;
+  background-color: var(--color-blue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .top-bar img {
+  margin-left: -10px;
+} */
+
+.facebook-login {
+  display: flex;
+  align-items: flex-start;
+}
+
+.facebook-login a {
+  font-size: 12px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  color: white;
+}
+
+.form-group label {
+  padding-bottom: 4px;
+}
+
+.form-group .input {
+  max-width: 150px;
+  margin-right: 8px;
+}
+
+.form-control {
+  align-self: flex-end;
+  padding: 7px 5px;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 64px;
+}
+
+.main-content .left-content {
+  width: 800px;
+}
+
+.main-content .left-content p {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-blue-dark);
+  max-width: 500px;
+  margin: 32px 0;
+}
+
+.main-content .right-content {
+  width: 300px;
+}
+
+.main-content .right-content .form-group {
+  padding: 0;
+}
+
+.main-content .right-content .input-container {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Facebook - entre ou se cadastre</title>
+</head>
+<body>
+    <header class="top-bar">
+        <img class="facebook-logo" src="imgs/facebook-logo.png" alt="logo do facebook">
+        <form class="facebook-login" action="" method="get">
+            <div class="form-group">
+                <label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
+                <input type="text" id="user-email-phone">
+            </div>
+            <div class="form-group">
+                <label for="user-password" id="user-password-label">Senha</label>
+                <input type="password" id="user-password">
+            </div>
+            <div class="form-control">
+                <button id="button-login" type="submit">Entrar</button>
+            </div>
+        </form>
+    </header>
+    <main class="main-content">
+        <div class="left-content">            
+            <!-- aqui vamos colocar o mapa -->
+            <p id="facebook-slogan">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+            <img id="facebook-networking" src="imgs/networking.png" alt="">
+        </div>
+        <div class="right-content" >
+            <!-- aqui vamos colocar o formulário de "abra uma conta" -->
+            <h1 class="all-roll">Abra uma conta</h1>
+            <p class="quick-easy all-roll">É rápido e fácil.</p>
+            <form class="form-new all-roll" action="" method="get">
+                <div class="side-by">
+                    <label class="mid-roll" for="name"><input  type="text" id="name" name="firstname" placeholder="Nome"></label>
+                    <label class="mid-roll" for="last-name"><input  type="text" id="last-name" name="lastname" placeholder="Sobrenome"></label> 
+                </div>
+                <label class="all-roll" for="phone-email"><input  type="text" id="phone-email" name="phone_email" placeholder="Celular ou email"></label>
+                <label class="all-roll" for="newpassword"><input  type="password" id="newpassword" name="password" placeholder="Nova senha"></label>
+                <label class="all-roll" id="label-birthdate" for="birthdate">Data de nascimento</label>
+                <input class="all-roll"  type="text" id="birthdate" name="birthdate" placeholder="dd/mm/aaaa">
+                <label class="" id="label-gender" for="">Gênero</label>
+                <div class="side-by">
+                    <label for="female"><input type="radio" class="regular" name="gender" id="female" value="Feminino" checked>Feminino</label>
+                    <label for="male"><input type="radio" class="regular" name="gender" id="male" value="Masculino">Masculino</label>                    
+                    <label for="other"><input type="radio" name="gender" id="other" value="Personalizado">Personalizado</label>
+                </div>
+                <button type="submit" id="facebook-register">Cadastre-se</button>
+                <p class="result"></p>
+            </form>
+            <p id="resume-form"></p>            
+        </div>
+    </main>
+    <footer>
+        <section>
+            <!-- aqui colocamos as opções de idiomas -->
+        </section>
+        <section>
+            <!-- aqui colocamos os outro links do footer -->
+        </section>
+        <p>Facebool C 2020</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

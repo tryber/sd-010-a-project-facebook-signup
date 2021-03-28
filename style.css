@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.top-bar {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(66, 103, 178);
+  justify-content: space-between;
+}
+
+.facebook-logo {
+  display: flex;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.facebook-login {
+  display: flex;
+}
+
+label {
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+  padding-bottom: 2px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  color: white;
+}
+
+#button-login {
+  padding: 5px;
+  background-color: #1e4dac;
+  border-color: 1px solid #29487d;
+  border-radius: 2px;
+  color: white;
+}
+
+.form-control {
+  padding: 10px 50px 10px 5px;
+  justify-content: center;
+  align-self: flex-end;
+}
+
+.main-content {
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(white, #d3d8e8);
+}
+
+.left-content {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  align-items: center;
+}
+
+.right-content {
+  width: 300px;
+}
+
+#facebook-slogan {
+  color: #17315e;
+  font-size: 18px;
+  width: 400px;
+  font-weight: 600;
+}
+
+.quick-easy {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 6px;
+}
+
+.form-inputs {
+  font-size: 18px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  width: 377px;
+  border: 1px solid #bdc7d8;
+  margin: 5px;
+}
+
+#name {
+  display: flex;
+  flex-direction: row;
+}
+
+#facebook-register {
+  min-width: 194px;
+  padding: 7px 20px;
+  text-align: center;
+  color: white;
+  background: linear-gradient(#67ae55, #578843);
+  background-color: #69a74e;
+  box-shadow: inset 0 1px 1px #a4e388;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  border-radius: 2px;
+  margin: 5px;
+}
+
+#gender {
+  display: flex;
+  align-content: space-between;
+}
+
+#label-birthdate {
+  color: rgb(131, 124, 124);
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+#label-gender {
+  color: rgb(131, 124, 124);
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+#gender1 {
+  margin: 4px 8px 8px;
+}
+
+#gender2 {
+  margin: 4px 8px 8px;
+}
+
+#gender3 {
+  margin: 4px 8px 8px;
+}
+
+p {
+  color: red;
+  font-size: 18px;
+}

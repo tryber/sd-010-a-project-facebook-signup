@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-bar {
+  display: flex;
+  width: 100%;
+  height: 82.5px;
+  background-color: rgb(66, 103, 178);
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 180px;
+}
+
+.facebook-logo {
+  display: flex;
+  position: relative;
+  left: 0;
+}
+
+.facebook-login {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  right: 0;
+  width: 450px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control {
+  align-self: flex-end;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.right-content , .left-content {
+  display: flex;
+  flex-flow: column wrap;
+  position: relative;
+}
+
+.left-content {
+  width: 800px;
+  align-items: center;
+}
+
+.right-content {
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.fullname {
+  display: flex;
+  flex-flow: row nowrap;
+  flex-basis: 50%;
+}
+
+.fullname input {
+  width: 100%;
+}
+
+#label-birthdate {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+#label-birthdate input {
+  display: block;
+}
+
+#label-gender {
+  display: flex;
+  flex-flow: column wrap;
+}

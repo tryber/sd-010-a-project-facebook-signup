@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.left-content {
+  width: 800px;
+}
+
+.right-content {
+  width: 300px;
+}
+
+.complete-name {
+  display: flex;
+}
+
+.top-bar {
+  background-color: rgb(66, 103, 178);
+  display: flex;
+  justify-content: space-between;
+}
+
+.facebook-login {
+  display: flex;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control {
+  align-self: flex-end;
+}
+
+#custom-gender {
+  display: none;
+}

@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(66, 103, 178);
+  height: 82px;
+}
+
+.top-bar img {
+  margin: 17px 0 0;
+  align-self: flex-start;
+  margin-right: auto;
+}
+
+.facebook-login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 14px;
+}
+
+.form-group label {
+  color: white;
+  padding-bottom: 4px;
+  font-size: 12px;
+}
+
+.form-group input {
+  width: 146px;
+  height: 19px;
+}
+
+.form-control {
+  display: flex;
+  align-self: flex-end;
+  padding: 0 0 20px 14px;
+  text-align: center;
+  text-shadow: none;
+  white-space: nowrap;
+  width: 63px;
+}
+
+/* Necessita de ajustes */
+.form-control button {
+  background-color: #4267b2;
+  color: white;
+  border: 1px solid #ccd0d5;
+  border-radius: 2px;
+  border-color: #29487d;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  white-space: nowrap;
+  cursor: pointer;
+  width: 58px;
+  height: 24px;
+}
+
+.main-content {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.left-content {
+  min-width: 800px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.left-content p {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29px;
+  margin-top: 20px;
+  width: 450px;
+  word-spacing: -1px;
+}
+
+.right-content {
+  width: 300px;
+  margin-right: 300px;
+}
+
+.right-content h1 {
+  color: #333;
+  font-size: 36px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.quick-easy {
+  color: #1d2129;
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+
+.register input {
+  font-size: 18px;
+  padding: 8px 10px;
+  border: 1px solid #bdc7d8;
+  border-radius: 5px;
+}
+
+.name input {
+  width: 194px;
+  margin-right: 12px;
+}
+
+.name {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.email-password {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.email-password input {
+  margin-top: 12px;
+  width: 400px;
+}
+
+.birthdate , #label-gender {
+  margin-top: 12px;
+  color: #90949c;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.birthdate input {
+  margin-top: 8px;
+  width: 194px;
+}
+
+.gender {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.gender-container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  margin-top: 12px;
+}
+
+.gender-container label {
+  margin-left: 6px;
+  margin-right: 6px;
+  color: #1d2129;
+  font-size: 18px;
+  line-height: 18px;
+}

@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(66, 103, 178);
+  justify-content: space-between;
+}
+
+.facebook-logo {
+  justify-content: left;
+}
+
+.facebook-login {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  color: whitesmoke;
+}
+
+.form-control {
+  align-self: flex-end;
+  justify-content: right;
+  align-items: center;
+}
+
+#button-login {
+  background-color: rgb(66, 103, 178);
+  border: 1px solid black;
+  color: whitesmoke;
+  margin: 0 10px 6px;
+  padding: 1px 10px;
+}
+
+#button-login:hover {
+  font-weight: 900;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left-content {
+  width: 800px;
+}
+
+#facebook-slogan {
+  font-weight: 900;
+  width: 500px;
+  margin-top: 20px;
+  margin-left: 50px;
+  padding-left: 50px;
+}
+
+#facebook-networking {
+  width: 500px;
+  margin-left: 75px;
+  margin-top: 25px;
+}
+
+.right-content {
+  width: 300px;
+}
+
+.right-title {
+  margin-top: 15px;
+  margin-left: 3px;
+}
+
+.quick-easy {
+  margin: 5px 3px 15px;
+  font-weight: 900;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-fullname {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+#input-name {
+  width: 110px;
+  margin-left: 3px;
+}
+
+#input-lastname {
+  width: 110px;
+  margin-left: 3px;
+}
+
+#phone_email {
+  margin-left: 3px;
+  width: 224px;
+}
+
+#password {
+  margin-top: 10px;
+  margin-left: 3px;
+  width: 224px;
+}
+
+#label-birthdate {
+  margin-top: 15px;
+  margin-left: 3px;
+}
+
+#birthdate {
+  margin: 5px 0 15px 3px;
+  width: 224px;
+}
+
+#label-gender {
+  margin-left: 3px;
+}
+
+#container-gender {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+
+#female {
+  font-size: 12px;
+  margin-left: 3px;
+}
+
+#male {
+  font-size: 12px;
+  margin-left: 3px;
+}
+
+#personality {
+  font-size: 12px;
+  margin-left: 3px;
+}
+
+#gender-custom {
+  margin-top: 10px;
+  margin-left: 3px;
+  width: 224px;
+}
+
+#facebook-register {
+  background-color: rgb(70, 163, 47);
+  width: 100px;
+  height: 25px;
+  border-radius: 20px;
+  border: 1px solid white;
+  color: white;
+  margin-top: 10px;
+  margin-left: 3px;
+}
+
+#facebook-register:hover {
+  font-weight: 900;
+}

@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+}
+
+.top-bar {
+  width: 100%;
+  height: 70px;
+  padding: 0 30px;
+  background-color: rgb(66, 103, 178);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(250, 250, 250);
+}
+
+.facebook-logo {
+  left: 0;
+}
+
+.facebook-login {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.facebook-login button {
+  padding: 3px 5px;
+  background-color: rgb(58, 89, 226);
+  color: rgb(250, 250, 250);
+  font-weight: 700;
+  border: 1px solid rgb(31, 31, 180);
+  border-radius: 3px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-weight: 700;
+}
+
+.form-group input {
+  padding: 2px 5px;
+  font-weight: 700;
+}
+
+.main-content {
+  padding: 20px 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-control {
+  align-self: flex-end;
+}
+
+.left-content {
+  width: 800px;
+}
+
+.left-content p {
+  width: 490px;
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: rgb(9, 9, 138);
+}
+
+.right-content {
+  width: 300px;
+}
+
+.right-content h1 {
+  font-size: 35px;
+  color: rgb(37, 37, 37);
+}
+
+.quick-easy {
+  font-size: 23px;
+  margin: 10px 0;
+  color: rgb(8, 7, 83);
+}
+
+.right-content .input {
+  height: 40px;
+  width: 100%;
+  padding: 0 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid rgb(166, 166, 236);
+}
+
+#singup-form button {
+  padding: 5px 15px;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(250, 250, 250);
+  background-color: rgb(53, 207, 53);
+  border: 1px solid rgb(37, 37, 37);
+  border-radius: 5px;
+}
+
+.facebook-nome-sobrenome {
+  display: flex;
+  gap: 10px;
+}
+
+#gender {
+  margin-bottom: 10px;
+}
+
+.gender-radio {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+fieldset {
+  border: none;
+}
+

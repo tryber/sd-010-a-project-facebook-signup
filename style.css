@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  display: flex;
+  background-color: rgb(66, 103, 178);
+  justify-content: space-between;
+}
+
+.facebook-login {
+  display: flex;
+  color: white;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control {
+  align-self: flex-end;
+  margin: 7px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+}
+
+.left-content {
+  width: 800px;
+  align-content: space-between;
+}
+
+.right-content {
+  width: 300px;
+}
+
+.fullname {
+  display: flex;
+}
+
+.phone-email-password {
+  display: flex;
+  flex-direction: column;
+}
+
+.birthdate {
+  display: flex;
+  flex-direction: column;
+}
+
+.gender {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form span {
+  color: red;
+}

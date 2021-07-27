@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-bar {
+  background-color: rgb(66, 103, 178);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding-bottom: 5px;
+}
+
+.top-bar img {
+  align-self: center;
+  width: 110px;
+  height: 50px;
+}
+
+.facebook-login {
+  display: flex;
+  justify-content: space-between;
+}
+
+.facebook-login input {
+  margin-right: 10px;
+  border: 0.5px solid black;
+}
+
+.facebook-login p {
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control {
+  align-self: flex-end;
+}
+
+.main-content {
+  background-color: #f0f2f5;
+  display: flex;
+  flex-direction: row;
+  height: 700px;
+  justify-content: space-between;
+  padding-top: 40px;
+  width: 100%;
+}
+
+.left-content {
+  width: 800px;
+  color: rgb(14, 56, 95);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.right-content {
+  width: 300px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.right-content h1 {
+  color: rgb(51, 51, 51);
+  font-size: 36px;
+  align-self: flex-start;
+}
+
+.quick-easy {
+  color: rgb(29, 33, 41);
+  font-size: 19px;
+  align-self: flex-start;
+  margin: 10px 10px 10px 0;
+}
+
+.new-account {
+  display: flex;
+  flex-flow: column nowrap; /* não permite quebra de linha */
+  justify-content: center;
+  align-items: stretch;
+}
+
+.new-account input {
+  border: 1px solid rgb(191, 200, 215);
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 8px 10px;
+  margin: 5px;
+}
+
+.getName {
+  display: flex;
+}
+
+.getName #firstname {
+  width: 50%;
+}
+
+.getName #lastname {
+  width: 50%;
+}
+
+.create-phoneEmail input {
+  width: 95%;
+}
+
+.create-password input {
+  width: 95%;
+}
+
+.insert-birthdate input {
+  width: 95%;
+}
+
+.genderCustom #botton-custom {
+  width: 90%;
+}
+
+.create-phoneEmail {
+  width: 90%;
+}
+
+.create-password {
+  width: 90%;
+}
+
+.insert-birthdate {
+  width: 90%;
+  display: flex;
+  flex-flow: column nowrap;
+  color: rgb(133, 137, 145);
+  font-size: 1.08em;
+}
+
+.insert-birthdate label {
+  margin: 10px 8px 0;
+}
+
+.get-gender {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 10px 8px 8px;
+  color: rgb(133, 137, 145);
+  width: 100%;
+  font-size: 10px;
+}
+
+.type-gender {
+  margin-left: 2px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.type-gender label {
+  font-size: 1.04em;
+  color: rgb(27, 30, 36);
+}
+
+.button-submit {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.button-submit button {
+  margin-top: 1em;
+  text-shadow: 0.7px 0.7px black;
+  width: 200px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: 600;
+  height: 40px;
+  background: linear-gradient(#67ae55e0, #578843);
+}
+
+#error {
+  padding: 20px 0;
+}
